@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.hero-bg
+{
+    
+    text-align: center;
+    padding-bottom: 0.2em;
+    background-color: black;
+    background-image: url('images/p3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100% 100%;
+}
+header
+{
+   padding: 0.1em 0.1em;
+}
+.hero-bg a
+{
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+.hero-bg h1
+{
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 2em 0em;
+}
+section{
+    margin: 0 1em;
+}
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: large;
+    margin: 0 1em;
+}
+.hero-bg p{
+    font-weight: bold;
+    margin: 12em 12em;
+}
+
+.form-container{
+    background-color: white;
+    margin: 7em 20em 18em 18em;
+    padding: 4em;
+}
+label{
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+input[type="text"]{
+    border-radius: 20px;
+    border: 3px solid #707070;
+    padding: 1em;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+.form-left p
+{
+    color: grey;
+    margin: 0.25em 0.25em 0.25em;
+    padding: 6px;
+    padding-bottom: 30px;
+    font-size: 80%;
+}
+
+input[type=button]{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width:50%;
+    border: none solid #707070;
+    padding: 1em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.logo img
+{
+    width: 150px;
+}
